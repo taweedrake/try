@@ -1,0 +1,19 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+button{
+    outline: none;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+    color: lightblue;
+}
