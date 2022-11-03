@@ -242,6 +242,17 @@ footer h5{
     display: flex;
     gap: 1rem;
 }
+.connect ul li a{
+    color: rgb(143, 138, 138);
+    transition: .3s;
+    font-size: 1.2rem;
+}
+.connect ul li:hover {
+    transform: rotate(360deg);
+}
+.connect ul li a:hover{
+    color: lightblue;
+}
 
 @media (max-width:800px){
     footer{
