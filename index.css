@@ -183,12 +183,18 @@ header{
     padding: .3rem 1rem;
     border: 1px solid brown;
 }
+.mission button a{
+    font-size: 1.7rem;
+}
 /*------------------------------------media query------------------------------*/
 @media (min-width:800px){
     .mission button{
         margin-left: 10%;
         padding: .6rem 2rem;
         font-size: 1.2rem;
+    }
+    .mission button a{
+        font-size: 1.3rem;
     }
 }
 
