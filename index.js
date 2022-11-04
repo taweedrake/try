@@ -17,7 +17,7 @@ function slide() {
     }
     image.src = images[i]
     i++
-    setTimeout("slide()", 8000);
+    setTimeout("slide()", 9809);
 }
 function show() {
     nav.style.display = 'flex';
