@@ -1,6 +1,24 @@
 let nav = document.getElementById('link');
 let showIcon = document.getElementById('show');
 let hideIcon = document.getElementById('hide');
+let image = document.getElementById('image');
+const images = new Array(
+    "images/jesus.jpg",
+    "images/hand.jpg",
+    "images/lhands.jpg",
+    "images/worship.jpg"
+);
+let len = images.length;
+let i;
+i = 0;
+function slide() {
+    if (i>len-1) {
+        i=0
+    }
+    image.src = images[i]
+    i++
+    setTimeout("slide()", 8000);
+}
 function show() {
     nav.style.display = 'flex';
    
