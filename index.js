@@ -16,7 +16,7 @@ function slide() {
         i=0
     }
     image.src = images[i]
-    i++
+    i++;
     setTimeout("slide()", 9809);
 }
 function show() {

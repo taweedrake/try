@@ -7,7 +7,7 @@
 .head{
     position: relative;
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     min-height: 100vh;
 }
 #image{
@@ -41,8 +41,8 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    align-items: center;
+    padding: 1rem ;
+    align-items: flex-start;
 }
 .nav ul{
     display: flex;
@@ -50,7 +50,7 @@ header{
 }
 .nav ul li a{
     color: white;
-    padding: .5rem;
+    padding:  .5rem;
     border-radius: 5px;
 }
 .nav ul li a:hover{
@@ -103,7 +103,7 @@ header{
         margin-top: 1rem;
         padding: 1rem 10rem;
         border-radius: 20px;
-        overflow: hidden;
+       /* overflow: hidden;*/
         position: absolute;
         left: 0;
         right: 0;
