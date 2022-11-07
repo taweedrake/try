@@ -29,3 +29,7 @@ function hide() {
     
     showIcon.style.display = 'block'
 }
+
+function give() {
+    alert("Thank you for choosing to support God's work. You are going to be redirected to the payment page soon. May God bless you " )
+}
