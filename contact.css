@@ -1,0 +1,62 @@
+header{
+    background-color: lightblue;
+    min-height: 5rem;
+    align-items: flex-start;
+}
+.header{
+    min-height:0;
+    position: relative;
+}
+.name h1{
+    text-align: center;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+.intro{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.521)),url(images/worship.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+.contact h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.main-c{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+
+}
+.main-c >*{
+    background-color: rgb(7, 7, 80);
+    min-height: 30vh;
+    min-width: 30%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.main-c >*:hover{
+    transform: scale(1.06);
+}
+.main-c >* h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media (max-width:800px){
+    .main-c{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .main-c >*{
+        min-width: 80%;
+    }
+}
